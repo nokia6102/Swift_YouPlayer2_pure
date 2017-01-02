@@ -19,44 +19,33 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func play(sender: UIButton) {
+    @IBAction func play(_ sender: UIButton) {
         if playerView.ready {
             if playerView.playerState != YouTubePlayerState.Playing {
                 playerView.play()
-                playButton.setTitle("Pause", forState: .Normal)
+                playButton.setTitle("Pause", for: UIControlState())
             } else {
                 playerView.pause()
-                playButton.setTitle("Play", forState: .Normal)
+                playButton.setTitle("Play", for: UIControlState())
             }
         }
     }
 
-    @IBAction func prev(sender: UIButton) {
+    @IBAction func prev(_ sender: UIButton) {
         playerView.previousVideo()
     }
 
-    @IBAction func next(sender: UIButton) {
+    @IBAction func next(_ sender: UIButton) {
         playerView.nextVideo()
     }
 
-    @IBAction func loadVideo(sender: UIButton) {
-        playerView.playerVars = ["playsinline": "1"]
-        playerView.loadVideoID("wQg3bXrVLtg")
+    @IBAction func loadVideo(_ sender: UIButton) {
+        playerView.playerVars = ["playsinline": "1" as AnyObject]
+        playerView.loadVideoID("WMxjddqyVno")
     }
 
-    @IBAction func loadPlaylist(sender: UIButton) {
-        playerView.loadPlaylistID("RDe-ORhEE9VVg")
-    }
-
-    func showAlert(message: String) {
-        self.presentViewController(alertWithMessage(message), animated: true, completion: nil)
-    }
-
-    func alertWithMessage(message: String) -> UIAlertController {
-        let alertController =  UIAlertController(title: "", message: message, preferredStyle: .Alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
-
-        return alertController
+    @IBAction func loadPlaylist(_ sender: UIButton) {
+        playerView.loadPlaylistID("PLrL-Vo0sawkCnrzvUfbZGaPc9cuLY4fYd")
     }
 
     override func didReceiveMemoryWarning() {

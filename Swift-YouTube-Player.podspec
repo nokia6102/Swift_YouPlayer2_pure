@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Swift-YouTube-Player"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "A swift port of the YouTube helper (embedded player) for IOS"
 
   s.description  = <<-DESC
