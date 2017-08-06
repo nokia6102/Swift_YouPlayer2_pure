@@ -37,15 +37,16 @@ class ViewController: UIViewController {
 
     @IBAction func next(_ sender: UIButton) {
         playerView.nextVideo()
+      
     }
 
     @IBAction func loadVideo(_ sender: UIButton) {
         playerView.playerVars = ["playsinline": "1" as AnyObject]
-        playerView.loadVideoID("WMxjddqyVno")
+        playerView.loadVideoID("p_OofgvPFYg")
     }
 
     @IBAction func loadPlaylist(_ sender: UIButton) {
-        playerView.loadPlaylistID("PLrL-Vo0sawkCnrzvUfbZGaPc9cuLY4fYd")
+        playerView.loadPlaylistID("PLNimSq2k6r44PRXh_Sy0wcn4CoiMTIuBx")
     }
 
     override func didReceiveMemoryWarning() {

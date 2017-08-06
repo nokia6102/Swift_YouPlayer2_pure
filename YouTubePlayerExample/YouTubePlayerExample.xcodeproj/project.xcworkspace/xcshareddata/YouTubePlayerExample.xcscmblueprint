@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "365CB2E3EF4883F2F8B5BBE74CA13F19257DB9D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "562B3B44D7FACFBBCDEF97ED29095FDE194BFF98" : 9223372036854775807,
+    "365CB2E3EF4883F2F8B5BBE74CA13F19257DB9D9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF2C8BAC-699D-4E52-8C58-80583C4609EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "562B3B44D7FACFBBCDEF97ED29095FDE194BFF98" : "",
+    "365CB2E3EF4883F2F8B5BBE74CA13F19257DB9D9" : "Swift_player2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YouTubePlayerExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YouTubePlayerExample\/YouTubePlayerExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kieuquangloc147\/YouTubePlayer-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "365CB2E3EF4883F2F8B5BBE74CA13F19257DB9D9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:nokia6102\/Swift_youtubePlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "562B3B44D7FACFBBCDEF97ED29095FDE194BFF98"
+    }
+  ]
+}
